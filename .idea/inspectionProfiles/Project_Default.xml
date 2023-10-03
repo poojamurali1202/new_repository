@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="numpy" />
+            <item index="1" class="java.lang.String" itemvalue="2opencv-python" />
+            <item index="2" class="java.lang.String" itemvalue="torch" />
+            <item index="3" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="4" class="java.lang.String" itemvalue="onnx" />
+            <item index="5" class="java.lang.String" itemvalue="pycocotools" />
+            <item index="6" class="java.lang.String" itemvalue="google" />
+            <item index="7" class="java.lang.String" itemvalue="googleapiclient" />
+            <item index="8" class="java.lang.String" itemvalue="xhtml2pdf" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E302" />
+          <option value="E111" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.decode" />
+          <option value="fastapi.views" />
+          <option value="onnx.backend.base.BackendRep.tf_module" />
+          <option value="cv2.imread" />
+          <option value="cv2.destroyAllWindows" />
+          <option value="cv2.waitKey" />
+          <option value="cv2.imshow" />
+          <option value="cv2.circle" />
+          <option value="cv2.cvtColor" />
+          <option value="cv2.COLOR_BGR2RGB" />
+          <option value="tensorflow._api.v2.lite.Interpreter" />
+          <option value="cv2.VideoCapture" />
+          <option value="cv2.resize" />
+          <option value="cv2.INTER_CUBIC" />
+          <option value="cv2.INTER_LINEAR" />
+          <option value="cv2.IMREAD_COLOR" />
+          <option value="cv2.putText" />
+          <option value="cv2.FONT_HERSHEY_COMPLEX" />
+          <option value="cv2.imwrite" />
+          <option value="onnx.backend.base.BackendRep.export_graph" />
+          <option value="cv2.imdecode" />
+          <option value="concurrent.futures" />
+          <option value="ATS_App.models.AtsAppApplicants.objects" />
+          <option value="ATS_App.models.CandidateProfiles.objects" />
+          <option value="rest_framework.serializers.BigIntegerField" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
