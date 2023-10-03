@@ -3,6 +3,10 @@ import email
 import html2text
 import mysql.connector
 
+# status pending(halted),closed,completed
+# update through sql
+# without description add buisness unit code
+
 mydb = mysql.connector.connect(host='localhost', user='root', password='vrdella!6', database="mine_baxster")
 mycursor = mydb.cursor()
 
@@ -49,6 +53,8 @@ def client_details(msgs):
                         # Convert HTML to plain text using html2text
                         html_content = part.get_payload(decode=True).decode()
                         plain_text = html_converter.handle(html_content)
+
+
 
                         formatted_result = {}
                         data_s = ["Requisition ID", "Requisition Title", "Requisition Start Date","Requisition End Date", "Business Unit", "Location"]
@@ -108,5 +114,4 @@ client_details(email_details)
 
 mydb.close()
 print("Data Inserted Successfully")
-
 
